@@ -11,5 +11,6 @@ public class Tugas_minggu_1_acara_5_dan_6 {
         System.out.println(IName);
         System.out.println(stuld);
         System.out.println(stuStatus);
+        
     }
 }
