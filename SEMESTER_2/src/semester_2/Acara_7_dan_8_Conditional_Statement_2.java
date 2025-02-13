@@ -25,7 +25,7 @@ public class Acara_7_dan_8_Conditional_Statement_2 {
 
         System.out.print("Masukkan nama pembeli : ");
         nama = scan.nextLine();
-
+        
         System.out.print("Silahkan masukkan pilihan anda : ");
         angka = can.nextInt();
 

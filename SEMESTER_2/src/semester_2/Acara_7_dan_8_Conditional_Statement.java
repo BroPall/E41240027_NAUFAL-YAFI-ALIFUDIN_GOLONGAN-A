@@ -21,6 +21,7 @@ public class Acara_7_dan_8_Conditional_Statement {
         System.out.println("----------------------------------------------");
         System.out.print("Masukkan nama pembeli : ");
         nama = scan.next();
+        System.out.println();
 
         System.out.print("Masukkan harga barang ke-1 : ");
         harga += can.nextInt();
@@ -34,6 +35,7 @@ public class Acara_7_dan_8_Conditional_Statement {
         harga += can.nextInt();
         System.out.println("Total harga pembelian atas nama " + nama + " adalah " + " Rp. " + harga);
 
+        System.out.println();
             System.out.println("Selamat.... ");
             System.out.println("Anda mendapat hadiah 1 buah mug cantik");
 
