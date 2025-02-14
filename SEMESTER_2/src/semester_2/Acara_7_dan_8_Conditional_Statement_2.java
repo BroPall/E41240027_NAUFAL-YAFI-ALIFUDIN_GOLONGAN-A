@@ -30,10 +30,6 @@ public class Acara_7_dan_8_Conditional_Statement_2 {
         angka = can.nextInt();
 
         switch (angka) {
-            case 0:
-                System.out.println("Minuman yang anda pesan tidak tersedia pada Cafe kami");
-                System.out.println("Terima Kasih " + nama + " telah berkunjung di Cafe Ceria");
-                break;
             case 1:
                 System.out.println("Minuman yang anda pesan adalah Soft Drinks");
                 System.out.println("Pesanan akan segera kami antar");
@@ -58,11 +54,9 @@ public class Acara_7_dan_8_Conditional_Statement_2 {
                 System.out.println("Minuman yang anda pesan adalah Tea");
                 System.out.println("Pesanan akan segera kami antar");
                 System.out.println("Terima Kasih " + nama + " telah berkunjung di Cafe Ceria");
-                break;
-            case 6:
-                System.out.println("Minuman yang anda pesan tidak tersedia pada Cafe kami");
-                System.out.println("Terima Kasih " + nama + " telah berkunjung di Cafe Ceria");
-                break;
+                break;   
+            default :
+                System.out.println("Menu tidak ada di Cafe kami, pilih menu yang sesuai!!");
         }
 
     }
