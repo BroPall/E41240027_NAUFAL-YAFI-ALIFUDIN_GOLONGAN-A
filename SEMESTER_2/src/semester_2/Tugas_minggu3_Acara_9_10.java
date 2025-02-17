@@ -16,7 +16,7 @@ public class Tugas_minggu3_Acara_9_10 {
         
         for (int k = batasAwal; k <= batasAkhir; k++) {
         if (k % 2 == 0){
-            System.out.print(k + " ");
+            System.out.println(k + " ");
         }
     }
     }
