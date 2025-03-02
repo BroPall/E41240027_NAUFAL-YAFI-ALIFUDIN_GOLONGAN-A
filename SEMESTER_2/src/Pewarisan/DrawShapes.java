@@ -1,63 +1,52 @@
-import java.awt.*;  
-import java.applet.*;  
+package Pewarisan;
 
-public class DrawShapes extends Applet {  
-    Font font;  
-    Color redColor;  
-    Color blueColor;  
-    Color backgroundColor;  
+import java.awt.*;
+import java.applet.*;
 
-    public void init() {  
-        // The Font is Arial size, 18 and is italicized  
-        font = new Font("Arial", Font.ITALIC, 18);  
+public class DrawShapes extends Applet {
 
-        // Some colors are predefined in the Color class  
-        redColor = Color.red;  
-        backgroundColor = Color.orange;  
+    Font font;
+    Color redColor;
+    Color blueColor;
+    Color backgroundColor;
 
-        // Colors can be created using Red, Green, Blue values  
-        blueColor = new Color(0, 0, 122);  
+    public void init() {
+        font = new Font("Arial", Font.ITALIC, 18);
 
-        // Set the background Color of the applet  
-        setBackground(backgroundColor);  
-    }  
+        redColor = Color.red;
+        backgroundColor = Color.orange;
 
-    public void stop() {  
-        // Empty method  
-    }  
+        blueColor = new Color(0, 0, 122);
+        setBackground(backgroundColor);
+    }
 
-    /**  
-     * This method paints the shapes to the screen  
-     */  
-    public void paint(Graphics graph) {  
-        // Set font  
-        graph.setFont(font);  
+    public void stop() {
+    }
 
-        // Create a title  
-        graph.drawString("Draw Shapes", 90, 20);  
+    public void paint(Graphics graph) {
+        graph.setFont(font);
 
-        // Set the color for the first shape  
-        graph.setColor(blueColor);  
+        graph.drawString("Draw Shapes", 90, 20);
+        
+        graph.setColor(blueColor);
+        
+        graph.drawRect(120, 120, 120, 120);
+        
+        graph.fillRect(115, 115, 90, 90);
+        
+        graph.setColor(redColor);
+        
+        graph.fillArc(110, 110, 50, 50, 0, 360);
+        
+        graph.setColor(Color.cyan);
+        
+        graph.drawRect(50, 50, 50, 50);
+        
+        graph.fillRect(50, 50, 60, 60);
+    }
 
-        // Draw a rectangle using drawRect(x, y, int width, int height)  
-        graph.drawRect(120, 120, 120, 120);  
+    public static void main(String[] args) {
 
-        // This will fill a rectangle  
-        graph.fillRect(115, 115, 90, 90);  
+    }
 
-        // Set the color for the next shape  
-        graph.setColor(redColor);  
-
-        // Draw a circle using drawArc(x, y, int width, int height, int startAngle, int arcAngle)  
-        graph.fillArc(110, 110, 50, 50, 0, 360);  
-
-        // Set color for next shape  
-        graph.setColor(Color.CYAN);  
-
-        // Draw another rectangle  
-        graph.drawRect(50, 50, 50, 50);  
-
-        // This will fill a rectangle  
-        graph.fillRect(50, 50, 50, 50);  
-    }  
-}  
+}
