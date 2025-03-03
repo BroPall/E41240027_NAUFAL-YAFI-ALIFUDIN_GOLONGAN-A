@@ -1,7 +1,5 @@
 package Dasar_Pewarisan;
 
-import Dasar_Pewarisan.B;
-import Dasar_Pewarisan.A;
 
     class A {
 
@@ -29,7 +27,7 @@ import Dasar_Pewarisan.A;
         public static void main(String[] args) {
             A a = new A();
             B b = new B();
-            C c = new C();
+            C c = new C();  
             A ref;
 
             ref = b;

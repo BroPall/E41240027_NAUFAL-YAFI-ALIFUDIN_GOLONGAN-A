@@ -16,7 +16,7 @@ class Main {
     public static void main(String[] args) {
         Animal animal = new Animal();
         animal.makeNoise();
-
+        
         Dog dog = new Dog();
         dog.makeNoise();
 
@@ -30,7 +30,7 @@ class Main {
             System.out.println("dog is Animal");
         }
         if (animaldog instanceof Animal) {
-            System.out.println("animaldog is Animal");
+            System.out.println("animal dog is Animal");
         }
         if (animal instanceof Dog) {
             System.out.println("animal is Dog");
