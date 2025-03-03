@@ -1,4 +1,4 @@
-package minggu5;
+package Dasar_Pewarisan;
 
 public class A {
     int x;

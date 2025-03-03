@@ -1,4 +1,7 @@
-package minggu5;
+package Dasar_Pewarisan;
+
+import Dasar_Pewarisan.B;
+import Dasar_Pewarisan.A;
 
     class A {
 

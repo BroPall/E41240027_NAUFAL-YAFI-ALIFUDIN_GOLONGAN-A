@@ -1,5 +1,5 @@
 
-package minggu5;
+package Dasar_Pewarisan;
 
 public class B extends A {
     int z;
