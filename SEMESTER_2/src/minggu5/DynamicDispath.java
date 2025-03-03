@@ -1,4 +1,4 @@
-package Pewarisan;
+package minggu5;
 
     class A {
 

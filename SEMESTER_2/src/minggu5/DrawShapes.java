@@ -1,4 +1,4 @@
-package Pewarisan;
+package minggu5;
 
 import java.awt.*;
 import java.applet.*;
@@ -46,7 +46,8 @@ public class DrawShapes extends Applet {
     }
 
     public static void main(String[] args) {
-
+        DrawShapes draw = new DrawShapes();
+        draw.setVisible(true);
     }
 
 }

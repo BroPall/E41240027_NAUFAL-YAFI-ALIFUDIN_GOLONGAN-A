@@ -1,4 +1,4 @@
-package Pewarisan;
+package minggu5;
 
 public class Animal {
     public void makeNoise() {

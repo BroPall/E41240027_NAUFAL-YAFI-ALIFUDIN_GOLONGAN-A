@@ -1,5 +1,5 @@
 
-package Pewarisan;
+package minggu5;
 
 public class B extends A {
     int z;
